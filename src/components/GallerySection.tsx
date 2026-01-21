@@ -1,32 +1,11 @@
 import { motion } from "framer-motion";
-import positionOpenedImage from "@/assets/position-open.webp";
-import positionDCAImage from "@/assets/position-dca.webp";
-import positionClosedImage from "@/assets/position-closed.webp";
-import telegramWebAppImage from "@/assets/telegram-web-app.webp";
+import image1 from "@/assets/section1.webp";
 
 const images = [
   {
-    src: telegramWebAppImage,
-    alt: "Telegram Web App",
-    caption: "Web app for viewing signals",
-    span: "lg:col-span-2",
-  },
-  {
-    src: positionOpenedImage,
-    alt: "Position Opened",
-    caption: "Position opened",
-    span: "lg:col-span-2",
-  },
-  {
-    src: positionDCAImage,
-    alt: "Position DCA Executed",
-    caption: "Position dca executed",
-    span: "lg:col-span-2",
-  },
-  {
-    src: positionClosedImage,
-    alt: "Position Closed",
-    caption: "Position closed",
+    src: image1,
+    alt: "Telegram message with resume details",
+    caption: "Telegram message with resume details",
     span: "lg:col-span-2",
   },
 ];

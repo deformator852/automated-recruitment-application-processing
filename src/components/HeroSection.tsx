@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/project-hero.jpg";
-import telegramCryptoSignalsImage from "@/assets/telegram-crypto-signals-hero.webp";
+import heroSectionImage from "@/assets/hero-section.png";
 
 const HeroSection = () => {
   return (
@@ -19,11 +19,11 @@ const HeroSection = () => {
             <span className="tag-badge">2025</span>
           </div>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-6">
-            Telegram Crypto Signals Bot
+            Telegram Recruitment Automation
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            This project is an automation pipeline and a Telegram web app for a
-            crypto signals Telegram group.
+            This project automates the handling of job applications for a
+            Ukrainian recruitment agency.
           </p>
         </motion.div>
 
@@ -34,7 +34,7 @@ const HeroSection = () => {
           className="mx-auto max-w-full"
         >
           <img
-            src={telegramCryptoSignalsImage}
+            src={heroSectionImage}
             alt="Project Hero"
             className="w-full h-auto max-w-3xl mx-auto"
             style={{ objectFit: "contain" }}

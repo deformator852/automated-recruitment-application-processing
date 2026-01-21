@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const techStack = ["n8n", "Node.js", "Telegram Bot API", "Vercel", "React"];
+const techStack = ["n8n", "Node.js", "Telegram Bot API"];
 
 const DetailsSection = () => {
   return (
@@ -18,17 +18,18 @@ const DetailsSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                This project is an automation pipeline and Telegram Web App
-                designed for a crypto signals Telegram group.
+                This project automates the handling of job applications for a
+                Ukrainian recruitment agency.
               </p>
               <p>
-                It listens for TradingView messages containing trading signals
-                and automatically forwards them to Telegram.
+                When a candidate submits an application, their information is
+                automatically processed, and a notification containing the
+                applicant’s details is sent directly to a dedicated Telegram
+                group.
               </p>
               <p>
-                Position opening data is stored and later displayed when
-                averaging occurs. The project also includes a website that
-                presents detailed information about opened positions.
+                This system streamlines candidate management, reduces manual
+                work, and ensures timely notifications for the recruitment team.
               </p>
             </div>
           </motion.div>
@@ -60,7 +61,7 @@ const DetailsSection = () => {
               <h3 className="font-display text-xl font-semibold text-foreground mb-4">
                 Timeline
               </h3>
-              <p className="text-muted-foreground">1 week (December 2025)</p>
+              <p className="text-muted-foreground">2 days (January 2026)</p>
             </div>
 
             <div>
@@ -69,26 +70,6 @@ const DetailsSection = () => {
               </h3>
               <p className="text-muted-foreground">Automation Engineer</p>
             </div>
-
-            {/* <div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-4">
-                Links
-              </h3>
-              <div className="flex gap-4">
-                <a
-                  href="#"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Live Demo →
-                </a>
-                <a
-                  href="#"
-                  className="text-primary hover:underline font-medium"
-                >
-                  GitHub →
-                </a>
-              </div>
-            </div> */}
           </motion.div>
         </div>
       </div>

@@ -1,31 +1,30 @@
 import { motion } from "framer-motion";
-import { Target, Users, Zap, Sparkles } from "lucide-react";
+import { Target, Users, Zap, Sparkles, Bot, Send } from "lucide-react";
 
 const features = [
   {
-    icon: Target,
+    icon: Bot,
     title: "Problem Solved",
     description:
-      "Automates crypto trading signals delivery and analysis, helping Telegram groups get timely, reliable, and actionable insights. The web app also lets users easily view all open positions for better tracking and usability.",
+      "Automates the processing of incoming job applications for a Ukrainian recruitment agency. Candidate submissions are instantly parsed and forwarded as structured notifications to a dedicated Telegram group, eliminating manual data entry and delays.",
   },
-
   {
     icon: Users,
     title: "Target Audience",
     description:
-      "Crypto traders in Telegram signals communities who want fast, reliable signal delivery and an easy way to track all open positions and averaging updates without constant manual checking.",
+      "Recruitment agency team members and HR specialists in Ukraine who handle high volumes of job applications and need fast, reliable notifications without constant manual checking of forms or emails.",
   },
   {
     icon: Zap,
     title: "Key Features",
     description:
-      "Instant TradingView-to-Telegram signal forwarding · Automatic saving and display of open positions · Real-time averaging detection and updates · Intuitive web dashboard for viewing all active trades · Efficient backend pipeline for reliable, hands-free operation.",
+      "Automatic candidate data extraction and formatting · Instant Telegram group notifications with applicant details · Reliable backend automation pipeline · Reduction of manual processing time · Easy integration with existing application forms.",
   },
   {
-    icon: Sparkles,
+    icon: Send,
     title: "Results & Impact",
     description:
-      "Achieved instant, reliable TradingView-to-Telegram signals · Enabled easy tracking of open positions and averaging on the web app · Eliminated manual monitoring effort and boosted group efficiency.",
+      "Achieved near-instant delivery of applicant information to the Telegram group · Significantly reduced manual work for the recruitment team · Improved response time to candidates · Streamlined overall candidate management workflow and team efficiency.",
   },
 ];
 
